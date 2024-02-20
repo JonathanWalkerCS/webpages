@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Survey Splash Page</title>
-  <script>
-    // Redirect to the Microsoft Forms survey after 5 seconds
-    setTimeout(function() {
-      window.location.href = 'https://forms.office.com/r/WqN7WdTk7T';
-    }, 5000); // Adjust the time in milliseconds as needed
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
 </head>
 <body>
-  <h1>Welcome to Our Survey!</h1>
-  <p>Thank you for participating. You will be redirected to the survey shortly.</p>
-  <!-- You can add any additional content here if needed -->
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="[https://forms.office.com/Pages/ResponsePage.aspx?id=<your-form-id>&lang=en](https://forms.office.com/r/WqN7WdTk7T)">Feedback Form</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <p>This is the main content of our website. Feel free to explore!</p>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Our Website</p>
+    </footer>
 </body>
 </html>
